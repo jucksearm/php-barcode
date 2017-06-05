@@ -1,0 +1,33 @@
+{
+    "name": "jucksearm/php-barcode",
+    "description": "Barcode Generation Package inspired by Nicola Asuni.",
+    "keywords": ["barcode","qrcode","QR Code","CODE 128","DATAMATRIX","PDF417","php barcode"],
+    "type": "library",
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "Jucksearm",
+            "email": "jucksearm.bkk@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "chmod 775 tmp"
+        ],
+        "post-update-cmd": [
+            "chmod 775 tmp"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "jucksearm\\barcode\\": ""
+        }
+    }
+}

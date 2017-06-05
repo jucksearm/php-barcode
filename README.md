@@ -60,7 +60,7 @@ Barcode::factory()
   ->setColor(null)
   ->renderHTML();
 ```
-[See More Examples](https://github.com/jucksearm/php-barcode/examples)
+[See More Examples](https://github.com/jucksearm/php-barcode/tree/master/examples)
 
 ## Barcode Option
 

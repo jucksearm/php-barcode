@@ -1,5 +1,5 @@
 {
-    "name": "jucksearm/php-barcode-adjust",
+    "name": "jucksearm/php-barcode",
     "description": "Barcode Generation Package inspired by Nicola Asuni.",
     "keywords": ["barcode","qrcode","QR Code","CODE 128","DATAMATRIX","PDF417","php barcode"],
     "type": "library",

@@ -16,7 +16,8 @@ class QRcode
 		$level = null,
 		$size = null,
 		$margin = null,
-		$color = null
+		$color = null,
+		$skipOutput = false
 	) {
 		$qrcodeFactory = self::factory()
 		  ->setCode($code)
@@ -25,6 +26,7 @@ class QRcode
 		  ->setSize($size)
 		  ->setMargin($margin)
 		  ->setColor($color)
+		  ->setSkipOutput($skipOutput)
 		  ->renderHTML();
 	}
 
@@ -35,7 +37,8 @@ class QRcode
 		$level = null,
 		$size = null,
 		$margin = null,
-		$color = null
+		$color = null,
+		$skipOutput = false
 	) {
 		$qrcodeFactory = self::factory()
 		  ->setCode($code)
@@ -45,6 +48,7 @@ class QRcode
 		  ->setSize($size)
 		  ->setMargin($margin)
 		  ->setColor($color)
+		  ->setSkipOutput($skipOutput)
 		  ->renderPNG();
 	}
 
@@ -55,7 +59,8 @@ class QRcode
 		$level = null,
 		$size = null,
 		$margin = null,
-		$color = null
+		$color = null,
+		$skipOutput = false
 	) {
 		$qrcodeFactory = self::factory()
 		  ->setCode($code)
@@ -65,6 +70,7 @@ class QRcode
 		  ->setSize($size)
 		  ->setMargin($margin)
 		  ->setColor($color)
+		  ->setSkipOutput($skipOutput)
 		  ->renderSVG();
 	}
 }
